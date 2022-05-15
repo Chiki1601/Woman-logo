@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#fff;
+    line-height: 1.5;
+   
+    
+}
+.content{
+   background-color: #ffffff;
+    width: 500px;
+    margin: auto;
+    height: 500px;
+}
+.group{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+  top:100px
+}
+.frame{
+   position: absolute;
+    top: 0px;
+    width: 269px;
+    height: 428px;
+    border-radius: 200px;
+    border: 10px solid #004;
+    
+}
+.face{
+    position: absolute;
+    top: 97px;
+    width: 176px;
+    height: 184px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 5;
+}
+.hair{
+  position: absolute;
+    top: 39px;
+    right: -101px;
+    width: 201px;
+    height: 203px;
+    background-color: #000042;
+    border-radius: 95px 0 0px 95px;
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+.tress1{
+    position: absolute;
+    top: 207px;
+    right: 22px;
+    width: 79px;
+    height: 147px;
+    background-color: #004;
+    border-radius: 0 0% 100% 0;
+    z-index: 2;
+}
+
+
+.tress2{
+  position: absolute;
+    right: -102px;
+    top: 207px;
+    width: 79px;
+    height: 147px;
+    background-color: #004;
+    border-radius: 0 0% 0% 100%;
+    z-index: 2;
+}
+
+.tress3{
+    position: absolute;
+    top: 73px;
+    right: -11px;
+    width: 60px;
+    height: 38px;
+    background-color: #000042;
+    border-radius: 100%;
+    z-index: 5;
+}
+
+
+.tress4{
+    position: absolute;
+    top: 73px;
+    right: -59px;
+    width: 60px;
+    height: 38px;
+    background-color: #000042;
+    border-radius: 100%;
+    z-index: 5;
+
+}
+
+.ear1{ 
+    position: absolute;
+    top: 185px;
+    right: 53px;
+    width: 47px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 20%;
+    z-index: 4;
+}
+.ear2{
+    position: absolute;
+    top: 185px;
+    right: -101px;
+    width: 47px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 20%;
+    z-index: 3;
+}
+.eye1{
+   position: absolute;
+    top: 124px;
+    right: 10px;
+    width: 51px;
+    height: 62px;
+    border: 3px solid #004;
+    transform: rotate(90deg);
+    border-color: #0040 #004 #0040 transparent;
+    border-radius: 58%;
+    z-index: 5;
+}
+.eye2{
+        position: absolute;
+    top: 124px;
+    right: -60px;
+    width: 51px;
+    height: 62px;
+    border: 3px solid #004;
+    transform: rotate(90deg);
+    border-color: #0040 #004 #0040 transparent;
+    border-radius: 58%;
+    z-index: 5;
+}
+.nose1{
+  position: absolute;
+    top: 220px;
+    right: -11px;
+    width: 6px;
+    height: 6px;
+    background-color: #004;
+    border-radius: 100%;
+    z-index: 5;
+}
+.nose2{
+ position: absolute;
+    top: 220px;
+    right: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: #004;
+    border-radius: 100%;
+    z-index: 5;
+}
+.mouth{
+    position: absolute;
+    top: 242px;
+    width: 42px;
+    height: 11px;
+    background-color: #004;
+    border-radius: 100%;
+    z-index: 5;
+} 
+   
+.cheek1{
+    position: absolute;
+    top: 223px;
+    right: -67px;
+    width: 29px;
+    height: 17px;
+    background-color: #ff1e7940;
+    transform: rotate(-45deg);
+    border-radius: 100%;
+    z-index: 5;;
+} 
+.cheek2{
+position: absolute;
+    top: 223px;
+    right: 37px;
+    width: 29px;
+    height: 17px;
+    background-color: #ff1e7940;
+    transform: rotate( 45deg);
+    border-radius: 100%;
+    z-index: 5;
+}
+
+ 
+.neck{
+   position: absolute;
+    top: 153px;
+    width: 162px;
+    height: 182px;
+    background-color: #ffffff;
+    border-radius: 1% 0% 50% 50%;
+    z-index: 1;
+}
+.shadow{
+     position: absolute;
+    top: 249px;
+    width: 68px;
+    height: 54px;
+    background-color: #ff335342;
+    border-radius: 48%;
+    z-index: 1;
+}
+   
+.leave1{
+    position: absolute;
+    top: 340px;
+    right: -43px;
+    width: 43px;
+    height: 44px;
+    background-color: #004;
+    transform: rotate( 84deg);
+    border-radius: 0% 100% 0% 100%;
+    z-index: 4;
+}   
+.leave2{
+    position: absolute;
+    top: 362px;
+    right: 15px;
+    width: 34px;
+    height: 28px;
+    background-color: #004;
+    border-radius: 0% 100% 0% 100%;
+    z-index: 4;
+    
+}
+
+.branch1{
+position: absolute;
+    top: 382px;
+    right: 3px;
+    width: 2px;
+    height: 45px;
+    background-color: #004;
+    transform: rotate( 20deg);
+    z-index: 4
+} 
+
+.branch2{
+     position: absolute;
+    top: 368px;
+    right: 15px;
+    width: 2px;
+    height: 40px;
+    background-color: #004;
+    transform: rotate(-38deg);
+    z-index: 4;
+}
